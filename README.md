@@ -1,8 +1,8 @@
 # Hugo NexT theme starter
 
-# 1. Update the submodlue
+# 1. Update the submodule
 
-Use the follow git command line check out latest `hugo-theme-next` theme version.
+Use the below git command line check out latest `hugo-theme-next` theme version.
 
 ```
 git submodule update --init --recursive
@@ -10,7 +10,7 @@ git submodule update --init --recursive
 
 # 2. Deploy & Browser visit
 
-Check the repository folder then use the Hugo command line deploy in local & open browser visit site.
+Check in the repository folder then use the Hugo command line deploy in local & open browser visit site.
 
 ```
 hugo server
