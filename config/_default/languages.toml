@@ -1,0 +1,15 @@
+[zh-CN]
+  title = "热爱生活与梦想"
+  languageCode = "zh-CN"
+  languageName = "简体中文"
+# Uncomment for multilingual sites, and customize the following config.
+##  weight = 1
+##  contentdir = "content/zh-CN"
+
+##
+##[en]
+##  title = "Loving life and dreams."
+##  languageCode = "en"
+##  languageName = "English"
+##  weight = 2
+##  contentdir = "content/en"

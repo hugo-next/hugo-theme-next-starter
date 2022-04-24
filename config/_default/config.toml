@@ -1,0 +1,60 @@
+## Website visit domain & tile description.
+baseUrl = "/"
+title =  "热爱生活与梦想"
+
+metaDataFormat =  "toml"
+
+theme = "hugo-theme-next"
+defaultContentLanguage = "zh-cn"
+
+## Website's artilce visit URL formatter
+[permalinks]
+  post = "/:year/:month/:filename"
+
+paginatePath =  "p"
+paginate = 5
+
+disablePathToLower =  false
+
+## Highlight source code display style.
+pygmentsStyle = "emacs"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+
+## Optimize search engine for SEO.
+enableRobotsTXT = true
+enableEmoji = true
+## Suggest open it when use in Chinese
+hasCJKLanguage = true
+
+[sitemap]
+  filename = "sitemap.xml"
+  changefreq = "weekly"
+  priority = 0.5
+
+## Customize defined local search metadata formatter.
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/xml"
+    baseName = "searchindex"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+## Compress website source code make load more fast. 
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+
+## Support HTML code in markdown document.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

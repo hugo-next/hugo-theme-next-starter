@@ -1,0 +1,5 @@
+[submodule "themes/hugo-theme-next"]
+	path = themes/hugo-theme-next
+	url = https://github.com/elkan1788/hugo-theme-next.git
+## Suggest use the Gitee repository URL when you in China.
+## url = https://gitee.com/lisenhui/hugo-theme-next.git

@@ -1,0 +1,4 @@
+# Ignore Hugo resource files
+*.hugo*.lock
+resources/
+public/

@@ -1,0 +1,46 @@
+## Multilingual settings
+## Your website description & keywords which useful for SEO.
+Description = "欢迎来到凡梦星尘空间站，个人主要专注于程序开发，产品，售前及大数据解决方案。"
+Keywords =  "博客, 程序员, 架构师, 思考, 读书, 笔记, 技术, 分享, 大数据, 产品"
+
+## Somethings about your mind.
+Subtitle = "没有伞的孩子要学会努力奔跑!"
+AuthorImg = "/img/avatar.png"
+AuthorName = "凡梦星尘"
+Introduce = "再平凡的人也有属于他自己的梦想!"
+
+## Article's push & modify date formatter style.
+DateFormat = "2006-01-02"
+YearFormat = "2006年"
+MonthFormat = "01-02"
+
+## Description information of the article copyright.
+## If not set will use the theme default.
+#ArticleDeclContent = "本博客文章除特别声明外，均采用 <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank' style='text-decoration: underline;'>CC BY-NC-SA 3.0</a>许可协议，转载请注明出处！"
+
+## Storage vender & ICP information.
+[Footer]
+  StorageLink = "https://gitee.com/"
+  StorageName = "Gitee 仓库"
+  ICPLink = "http://beian.miit.gov.cn"
+  ICPNo = "粤 ICP 备 18047355 号"
+
+## social links which you use often & connect. 
+[[Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/elkan1788/"
+
+[[Socials]]
+  Name = "知乎"
+  Icon = "globe"
+  URL = "https://www.zhihu.com/people/lisenhui"
+
+## Your friends website link.
+[[Links]]
+  Name = "Nutz"
+  Permalink = "https://nutzam.com/"
+
+[[Links]]
+  Name = "Wendal"
+  Permalink = "http://wendal.net/"
