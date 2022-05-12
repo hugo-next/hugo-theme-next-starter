@@ -7,7 +7,10 @@
 Check in the repository folder then use the below git command line check out latest `hugo-theme-next` theme version.
 
 ```
+# First time
 git submodule update --init --recursive
+# Next time
+git submodule update --remote --merge
 ```
 
 > Notice: When you are in China, recommend to use `Gitee` repository url replace the submodule url in `.gitmodules` file content and then execute the above `Git` command line to improve the speed.
