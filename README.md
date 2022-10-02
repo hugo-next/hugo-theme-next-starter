@@ -1,4 +1,4 @@
-[中文](https://github.com/hugo-next/hugo-theme-next-starter/blob/main/README.zh.md) | [English](# README.md)
+[中文](https://github.com/hugo-next/hugo-theme-next-starter/blob/main/README.zh.md) | [English](#)
 
 # Hugo NexT theme starter
 
