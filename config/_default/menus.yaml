@@ -1,0 +1,43 @@
+#--------------------------------------
+# 菜单配置说明
+# identifier ： 唯一标识不可重复
+# name       ： 菜单显示名称
+# pageref    ： 本站点链接地址，与 URL 选其一
+# url        ： 站点外部链接地址，以 http 或者 https 开头
+# pre        ： 菜单小图标
+# weight     ： 显示顺序，字数越小越靠前
+# 
+# Menus Settings
+# identifier : Unique ID cannot be repeated
+# name       : Menu name
+# pageref    : Link of webiste and not appeare same time with url
+# url        : Exteneral link out of website and start with http or https
+# pre        : Icon of menu
+# weight     : Order number and smaller is top
+# -------------------------------------
+main:
+  - identifier: home
+    name: 首页
+    pageref: /
+    pre: home
+    weight: 1
+  - identifier: about
+    name: 关于
+    pageref: /about.html
+    pre: user
+    weight: 2
+  - identifier: flinks
+    name: 站点示例
+    pageref: /flinks.html
+    pre: thumbs-up
+    weight: 3
+  - identifier: archives
+    name: 归档
+    pageref: /archives
+    pre: archive
+    weight: 4
+  - identifier: commonweal
+    name: 公益 404
+    url: /404.html
+    pre: heartbeat
+    weight: 5

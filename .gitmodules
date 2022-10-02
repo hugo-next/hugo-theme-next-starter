@@ -1,0 +1,4 @@
+[submodule "themes/hugo-theme-next"]
+  branch = main
+	path = themes/hugo-theme-next
+	url = https://github.com/hugo-next/hugo-theme-next.git
