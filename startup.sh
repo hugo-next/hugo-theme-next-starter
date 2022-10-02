@@ -18,6 +18,6 @@ Documentation: https://hugo-next.eu.org
 EOT
 }
 
-next_boot `cat ../VERSION`
+next_boot `cat themes/hugo-theme-next/VERSION`
 
 hugo server --port 1414
