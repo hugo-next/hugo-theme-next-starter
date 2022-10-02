@@ -31,6 +31,7 @@ $ git submodule update --remote
 
 在站点根目录下，执行自带的 `startup.sh` 启动脚本，当看到输出信息中带有 `stop` 字样时便表示启动成功，此时打开浏览器输入默认地址[http://localhost:1414/](http://localhost:1414/)访问浏览效果。
 
+
 ```shell
 $ sh startup.sh
 ========================================
@@ -75,6 +76,9 @@ Press Ctrl+C to stop
 ## 🎉 发布
 
 执行 `hugo` 命令生成全站静态文件，并把文件部署到类似 `Nginx` 的 Web 服务器即可。若如自己没有服务器的话，也可以直接开启 `Github Pages` 功能，会在你推送本地文件到服务器时，自动生成站点的静态文件，使用详情可关注：[Github Pages](https://pages.github.com/)。
+
+> **Note**
+> 请将 `config/_default/params.yaml` 配置文件中相关参数调整为你自己的实际环境，比如 评论插件，统计功能，分享功能等。
 
 ## 📜 许可证
 

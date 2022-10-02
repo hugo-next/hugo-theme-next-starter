@@ -78,6 +78,9 @@ Press Ctrl+C to stop
 Use `hugo` command to build site's static files, and deploy them into Web server just like `Nginx` and so on. Or you can enable `Github Page` function when you commit your local things there will build static files by automatic, more info:[Github Pages](https://pages.github.com/).
 
 
+> **Note**
+> Please relpace actual parameter's value in `config/_default/params.yaml` config file before deploy, such as comment, analytis, share and so on.
+
 ## 📜 License
 
 [MIT License](LICENSE)
