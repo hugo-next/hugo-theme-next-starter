@@ -636,7 +636,7 @@ comments:
   # 如果设置为 false，将采用 active 参数的那个插件
   # Setting `true` means remembering the comment system selected by 
   # the visitor, otherwise use the `active` setting comment system.
-  storage: true
+  storage: false
   # TODO
   # Lazyload all comment systems.
   # lazyload: false
@@ -658,7 +658,8 @@ comments:
 # Waline comments system
 # More info seee: https://waline.js.org/
 waline:
-  pageView: '#waline-pageview-count'
+  pageView: true
+  comment: true
   placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
   emoji: false
@@ -943,13 +944,13 @@ canvasRibbon:
 
 vendors:
   # The CDN provider of NexT internal scripts.
-  # Available values: local | unpkg | cdnjs | custom
+  # Available values: local | unpkg | cdnjs | qiniu | bootcdn | custom
   # Warning: If you are using the latest master branch of NexT, please set `internal: local`
   internal: local
   # The default CDN provider of third-party plugins.
-  # Available values: local | unpkg | cdnjs | custom
+  # Available values: local | unpkg | cdnjs| qiniu | bootcdn | custom
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-  plugins: unpkg
+  plugins: qiniu
   # TODO
   # Custom CDN URL
   # For example:
