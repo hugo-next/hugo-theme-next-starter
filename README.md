@@ -7,6 +7,30 @@ It's usefully for people who are first time notice Hugo framework and want to cr
 > **Note**
 > Before that make sure your PC were installed [Git](https://git-scm.com/downloads) and [Hugo](https://github.com/gohugoio/hugo/releases/) software.
 
+## Deploy on Vercel
+
+Now you can deployment your site on Vercel paltform by this button: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next-starter&env=HUGO_VERSION&envDescription=Enter%20latest%20version%20of%20Hugo%20engine.&envLink=https%3A%2F%2Fgithub.com%2Fgohugoio%2Fhugo%2Freleases%2F&project-name=my-blog&repo-name=my-blog&demo-title=Hugo%20NexT%20Theme&demo-description=Easily%20%26%20powerful%20theme%20of%20Hugo%20engine.&demo-url=https%3A%2F%2Fhugo-next.eu.org%2F&demo-image=https%3A%2F%2Fimgs.lisenhui.cn%2Fhugo-next%2Fhugo-next-demo.png&install-command=git%20submodule%20add%20https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next.git%20themes%2Fhugo-theme-next)
+
+### ➕ Create Github repository
+
+Please login Vercel with your Github account, then enter your repsitory name and click `Create`, also need enter latest Hugo version at `HUGO_VERSION` parameter, after those action then deploy it.
+
+![deploy-with-vercel-01.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-01.png)
+
+### 🏗 Change Framework
+
+Because Vercel doesn't defined the framework the site not work at first time, you need change it to `Hugo` and save change.
+
+![deploy-with-vercel-02.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-02.png)
+
+### 🚧 Redeployment
+
+Switch to `Deployment` tag page, refer to the following snapshot for operation, after a while the site will visit success.
+
+切换到 `Deployment` 标签页，然后再参考下图操作，重新发布后就可以正常访问啦。
+
+![deploy-with-vercel-03.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-03.png)
+
 ## ⏬ Clone Theme
 
 Click the green button which name call `Use this template` and upper right corner on the page. Full information such as below image:
