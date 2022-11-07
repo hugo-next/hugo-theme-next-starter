@@ -27,8 +27,6 @@ Because Vercel doesn't defined the framework the site not work at first time, yo
 
 Switch to `Deployment` tag page, refer to the following snapshot for operation, after a while the site will visit success.
 
-切换到 `Deployment` 标签页，然后再参考下图操作，重新发布后就可以正常访问啦。
-
 ![deploy-with-vercel-03.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-03.png)
 
 ## ⏬ Clone Theme
