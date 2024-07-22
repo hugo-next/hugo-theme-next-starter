@@ -7,13 +7,14 @@ date: 2022-09-10T21:02:32+08:00
 lastmod: 2022-09-10T21:02:32+08:00
 
 categories:
-  - 示例
+  - 示例文章
+
 tags:
   - 自定义
   - 个性化
   - 布局
 
-url: post/custom-files.html
+url: "demo/custom-files.html"
 toc: true
 ---
 
@@ -38,7 +39,7 @@ customFilePath:
 
 {{< /note >}}
 
-然后在站点的根目录下创建 `layouts/partials` 2个目录，用于存放自定布局设计文件，另外在站点根目录下创建 `statics/css` 2个目录，用于存放自定义 CSS 样式文件。一切就绪后，就可以参考如下的步骤，完成自己的设计想法。
+然后在站点的根目录下创建 `layouts/partials` 2个目录，用于存放自定布局设计文件，另外在站点根目录下创建 `static/css` 2个目录，用于存放自定义 CSS 样式文件。一切就绪后，就可以参考如下的步骤，完成自己的设计想法。
 
 ## 侧边栏设计
 

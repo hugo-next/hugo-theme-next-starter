@@ -7,14 +7,14 @@ date: 2022-10-06T09:02:26+08:00
 lastmod: 2022-10-30T21:03:16+08:00
 
 categories:
-  - 示例
+  - 示例文章
 tags:
   - toc
   - 标题
 
 comment:
   enable: false
-url: "post/no-header-title.html"
+url: "demo/no-header-title.html"
 ---
 
 刘慈欣2018克拉克奖获奖感言（部分内容节选）。

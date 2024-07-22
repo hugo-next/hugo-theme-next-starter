@@ -6,12 +6,13 @@ lastmod: 2022-06-03T16:43:23+08:00
 date: 2022-06-02T11:52:03+08:00
 
 categories:
- - 博客
-tags:
- - Hugo
- - 开始
+- 开始建站
 
-url: post/hello-world.html
+tags:
+  - Hugo
+  - 开始
+
+url: demo/hello-world.html
 toc: true
 weight: 2
 ---

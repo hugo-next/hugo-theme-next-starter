@@ -7,13 +7,17 @@ date: 2022-06-01T15:59:41+08:00
 lastmod: 2022-06-01T15:59:41+08:00
 
 categories:
- - 示例
+ - 示例文章
 tags:
  - Hugo
  - NexT
 
 expand: true
 extlink: https://gitee.com/hugo-next/hugo-theme-next/
+#comment:
+# enable: false
+#toc: false
+#url: "external-link.html"
 weight: 1
 ---
 

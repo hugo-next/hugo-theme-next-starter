@@ -7,12 +7,13 @@ date: 2022-09-18T20:58:13+08:00
 lastmod: 2022-09-18T20:58:13+08:00
 
 categories:
-  - 示例
+  - 第三方引入
+  - 图序功能
 tags:
   - 流程图
   - 时序图
 
-url: post/mermaid-charts.html
+url: "demo/mermaid-charts.html"
 mermaid: true
 toc: true
 ---
