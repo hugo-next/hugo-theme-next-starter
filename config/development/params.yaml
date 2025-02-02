@@ -1,6 +1,8 @@
-siteState: 
-  views:    
-    plugin: 51la
+yearFormat: "2006"
+monthFormat: "01-02"
+dateFormat: "2006-01-02"
+timeFormat: "2006-01-02T15:04:05-07:00 CST"
 
-analytics:
-  laId: JiZkaipzkPyiCL8x
+sidebar:
+  position: right
+  width: 264

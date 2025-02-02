@@ -10,9 +10,9 @@ mainSections: ["post"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
-monthFormat: "01-02"
-dateFormat: "2006-01-02"
-timeFormat: "2006-01-02T15:04:05-07:00"
+monthFormat: "01月02日"
+dateFormat: "2006年01月02日"
+timeFormat: "2006年01月02日 15:04:05 CST"
 
 # 页面模式
 # Schemes
@@ -257,7 +257,7 @@ footer:
 
   # 版权信息，如不设置将会使用 `author` 变量
   # If not defined, `author` from site information will be used.
-  copyright:
+  copyright: 
 
   # 显示 Hugo 和 NexT 支持
   # Powered by Hugo & NexT
@@ -321,27 +321,58 @@ readMoreBtn: true
 # 开启文章头部元素显示
 # Post meta display settings
 postMeta:
-    # 是否开启各元素的文字显示 
-    itemText: true
-    created: true
-    updated:
-      enable: true
-      anotherDay: true
-    categories: true
-    wordCount: true
-    readTime: true
-    # 是否开启评论数显示
-    comments: 
-      enable: false
-      # 评论统计插件，暂只支持waline
-      # Comment counter plugin, only support waline
-      plugin: waline
-    # 是否开启页面访问数显示
-    views:
-      enable: true
-      # 页面访问统计插件，支持busuanzi, waline, leancloud
-      # Page views counter plugin, support: busuanzi, waline, leancloud
-      plugin: busuanzi
+  # 是否开启各元素的文字显示 
+  itemText: true
+  created: true
+  updated:
+    enable: true
+    anotherDay: true
+  categories: true
+  wordCount: true
+  readTime: true
+  # 是否开启评论数显示
+  comments: 
+    enable: false
+    # 评论统计插件，暂只支持waline和waline3
+    # Comment counter plugin, only support waline & waline3
+    plugin: waline3
+  # 是否开启页面访问数显示
+  views:
+    enable: true
+    # 页面访问统计插件，支持busuanzi, waline, leancloud, waline3
+    # Page views counter plugin, support: busuanzi, waline, leancloud, waline3
+    plugin: waline3
+  # 是否开启过期提示
+  # Expired tip
+  expired: false
+  # 是否开启摘要显示
+  # Enable summary
+  summary: true
+
+# 文章内容中的提示信息设置
+# Alert settings in post content
+postAlerts:
+  info:
+    icon: "circle-info"
+    color: "#4A90E2"
+  note:
+    icon: "bell"
+    color: "#17A2B8"
+  help:
+    icon: "circle-question"
+    color: "#967ADC"
+  error:
+    icon: "circle-xmark"
+    color: "#DC3545"
+  warning:
+    icon: "triangle-exclamation"
+    color: "#F39C12"
+  success:
+    icon: "circle-check"
+    color: "#32CD32"
+  important:
+    icon: "circle-plus"
+    color: "#007BFF"
 
 # 文章底部的设置
 # Post footer settings
@@ -644,10 +675,10 @@ comments:
   # If true, will show comment component in post end.
   enable: true   
   # 设置默认使用的评论插件
-  # 可选值：livere | waline | utterances | artalk | giscus
+  # 可选值：livere | waline | waline3 | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
-  # Available values: livere | waline | utterances | artalk | giscus 
-  active: waline
+  # Available values: livere | waline | waline3 | utterances | artalk | giscus 
+  active: waline3
   # 让用户自己选择使用评论插件留言
   # 如果设置为 false，将采用 active 参数的那个插件
   # Setting `true` means remembering the comment system selected by 
@@ -660,7 +691,7 @@ comments:
   # `name` 参数名可选值：livere | waline | utterances | artalk | giscus
   # Modify texts or order for any naves, here are some examples.
   nav:
-    - name: waline
+    - name: waline3
       title: Waline
       color: "#27ae60"
       weight: 2
@@ -673,18 +704,32 @@ comments:
 # 更多配置信息请参考：https://waline.js.org/
 # Waline comments system
 # More info seee: https://waline.js.org/
-waline:
-  placeholder: "请文明发言哟 ヾ(≧▽≦*)o \n\n可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄\n(Window系统：Win+.，Mac系统：Control+Command+Space)"
+# waline:
+#   placeholder: "请文明发言哟 ヾ(≧▽≦*)o \n\n可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄\n(Window系统：Win+.，Mac系统：Control+Command+Space)"
+#   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
+#   emoji: false
+#   imgUploader: false
+#   wordLimit: 200
+#   requiredMeta: ['nick', 'mail']
+#   reaction: true
+#   reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
+#   reactionTitle: "你认为这篇文章怎么样？"
+#   # 请注意换成个人的 Waline Server 服务器地址
+#   # Please replace this with your waline server URL
+#   serverURL: https://walinejs.comment.lithub.cc
+# Waline(2) 与 Waline3 无法兼容只能是二选一
+# Waline3 采用的是ES模块开发，需要更高版本的浏览器才能支持，如考虑兼容性建议可优先选用Waline2
+waline3:
+  placeholder: "请文明发言哟 ヾ(≧▽≦*)o 可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄 (Window系统：Win+.，Mac系统：Control+Command+Space)"
   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
   emoji: false
+  search: true
   imgUploader: false
   wordLimit: 200
   requiredMeta: ['nick', 'mail']
   reaction: true
   reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
   reactionTitle: "你认为这篇文章怎么样？"
-  # 请注意换成个人的 Waline Server 服务器地址
-  # Please replace this with your waline server URL
   serverURL: https://walinejs.comment.lithub.cc
 
 # Artalk 评论插件
@@ -771,11 +816,19 @@ rating:
   id:     # <app_id>
   color:  "#fc6423"
 
-# AddThis文章分享功能
-# 更多信息及配置请参考：https://www.addthis.com
-# AddThis Share. 
-# See: https://www.addthis.com
-addThisId: #<Your addthis> 
+# 文章分享功能
+share:
+  enable: true
+  # 更多信息与配置，请参考：https://sharethis.com
+  # For more information and configuration, please refer to:https://sharethis.com
+  # sharethis:
+  #   id: #<sharethis_id> 
+  # 简单的在线分享，没有统计数据功能，更多信息可参考：https://www.addtoany.com/
+  # Simple online sharing without statistical data function. 
+  # For more information, please refer to: https://www.addtoany.com/
+  addtoany:    
+    locale: zh-CN
+    num_services: 8 
 
 
 # ---------------------------------------------------------------

@@ -1,0 +1,22 @@
+yearFormat: "2006"
+monthFormat: "01/02"
+dateFormat: "2006/01/02"
+timeFormat: "2006/01/02 15:04:05 -07:00"
+
+author: NexT Theme
+subtitle: Build for Hugo Theme
+description: Keep it simple, keep it powerful.
+keywords: Hugo,NexT,theme,simple,powerful
+
+linksSets:
+  title: Links
+
+footer:
+  beian:
+    enable: false
+
+postFooter:
+  endLineTip: "~ End Line ~"
+
+rewardSets:
+  comment: '<i class="fa-solid fa-mug-hot"></i>  How about you buy me a coffee?ヾ(^▽^*)))'

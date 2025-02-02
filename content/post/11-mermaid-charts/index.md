@@ -1,6 +1,5 @@
 ---
 title: "Mermaid支持流程图"
-description: "mermaid-flow-chart"
 keywords: "mermaid,flow,chart"
 
 date: 2022-09-18T20:58:13+08:00
@@ -14,7 +13,6 @@ tags:
   - 时序图
 
 url: "demo/mermaid-charts.html"
-mermaid: true
 toc: true
 ---
 
@@ -28,7 +26,6 @@ toc: true
 {{< note info >}}
 
 - 通过 `hugo new` 命令创建一篇新的文章
-- 在文章头部配置 `mermaid: true`
 - 使用短代码书写各种类型的图，自带2个参数： align（对齐） 和 bc（背景色），可参考如下使用示例
 
 {{< /note >}}

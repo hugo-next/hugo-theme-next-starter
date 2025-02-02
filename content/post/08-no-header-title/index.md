@@ -15,10 +15,12 @@ tags:
 comment:
   enable: false
 url: "demo/no-header-title.html"
+expired: true
 ---
 
 刘慈欣2018克拉克奖获奖感言（部分内容节选）。
 
+> [!INFO]
 > 用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。
 
 <!--more-->
