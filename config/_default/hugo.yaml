@@ -20,7 +20,7 @@ title: Hugo NexT
 # Theme name
 theme: hugo-theme-next
 # 站点默认的语言和代码
-# Default laguage & code for website
+# Default language & code for website
 defaultContentLanguage: zh-cn
 languageCode: zh-CN
 # 是否包含中文，日语，韩文
@@ -33,7 +33,7 @@ pagination:
 # 开启支持表情符号
 # Enable Emoji support
 enableEmoji: true
-# 让 Makedown 文档支持 HTML 语法，高亮，文章目录等功能
+# 让 Markdown 文档支持 HTML 语法，高亮，文章目录等功能
 # Make markdown content support HTML syntax, highlight, toc etc.
 markup:
   goldmark:
@@ -49,7 +49,7 @@ markup:
   tableOfContents:
     # 开始/结束标题级别：1-6 (建议从2开始)
     # Heading title level of start or end: 1-6
-    # Recommand start at 2
+    # Recommended start level: 2
     startLevel: 2
     endLevel: 4
 

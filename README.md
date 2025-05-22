@@ -9,11 +9,11 @@ It's usefully for people who are first time notice Hugo framework and want to cr
 
 ## Deploy on Vercel
 
-Now you can deployment your site on Vercel paltform by this button: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next-starter&env=HUGO_VERSION&envDescription=Enter%20latest%20version%20of%20Hugo%20engine.&envLink=https%3A%2F%2Fgithub.com%2Fgohugoio%2Fhugo%2Freleases%2F&project-name=my-blog&repo-name=my-blog&demo-title=Hugo%20NexT%20Theme&demo-description=Easily%20%26%20powerful%20theme%20of%20Hugo%20engine.&demo-url=https%3A%2F%2Fhugo-next.eu.org%2F&demo-image=https%3A%2F%2Fimgs.lisenhui.cn%2Fhugo-next%2Fhugo-next-demo.png&install-command=git%20submodule%20add%20https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next.git%20themes%2Fhugo-theme-next)
+Now you can deployment your site on Vercel platform by this button: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next-starter&env=HUGO_VERSION&envDescription=Enter%20latest%20version%20of%20Hugo%20engine.&envLink=https%3A%2F%2Fgithub.com%2Fgohugoio%2Fhugo%2Freleases%2F&project-name=my-blog&repo-name=my-blog&demo-title=Hugo%20NexT%20Theme&demo-description=Easily%20%26%20powerful%20theme%20of%20Hugo%20engine.&demo-url=https%3A%2F%2Fhugo-next.eu.org%2F&demo-image=https%3A%2F%2Fimgs.lisenhui.cn%2Fhugo-next%2Fhugo-next-demo.png&install-command=git%20submodule%20add%20https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next.git%20themes%2Fhugo-theme-next)
 
 ### ➕ Create Github repository
 
-Please login Vercel with your Github account, then enter your repsitory name and click `Create`, also need enter latest Hugo version at `HUGO_VERSION` parameter, after those action then deploy it.
+Please login Vercel with your Github account, then enter your repository name and click `Create`, also need enter latest Hugo version at `HUGO_VERSION` parameter, after those action then deploy it.
 
 ![deploy-with-vercel-01.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-01.png)
 
@@ -101,7 +101,7 @@ Use `hugo` command to build site's static files, and deploy them into Web server
 
 
 > **Note**
-> Please relpace actual parameter's value in `config/_default/params.yaml` config file before deploy, such as comment, analytis, share and so on.
+> Please replace actual parameter's value in `config/_default/params.yaml` config file before deploy, such as comment, analytics, share and so on.
 
 ## 📜 License
 
