@@ -27,7 +27,7 @@ In the past, the `Hugo NexT` theme used to annotate block information through cu
 Users can find the positions of the following two configuration items and adjust them according to their preferred style and color:
 
 ```yaml
-#config.yaml or hugo.toml
+#Config. yaml or hugo.toml
 postAlerts:
 info:
 icon: "circle-info"
@@ -64,7 +64,7 @@ success  :  'Success'
 important:  'Important'
 ```
 
-The writing style and specific implementation effects in the Markdown document are as follows:
+The writing style and specific implementation effects in the Maarkdown document are as follows:
 
 ## Information prompt
 

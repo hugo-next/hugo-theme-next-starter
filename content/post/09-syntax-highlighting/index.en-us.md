@@ -19,7 +19,7 @@ url: demo/syntax-highlighting.html
 
 Hugo provides very fast syntax highlighting through Chroma, and now uses Chroma as code block highlighting support in Hugo. It is built into the Go language, and the speed is really, really fast. Most importantly, it is also compatible with the Pygments method we used before.
 
-The following verifies the rendering effect of code blocks in different languages and their correct highlighting through Hugo's built-in short code 'highlight' and 'Markdown' code blocks. For more information on optimizing syntax highlighting, please refer to the [Hugo Documentation](https://gohugo.io/getting-started/configuration-markup#highlight).
+The following verifies the rendering effect of code blocks in different languages and their correct highlighting through Hugo's built-in short code 'highlight' and 'Markodown' code blocks. For more information on optimizing syntax highlighting, please refer to the [Hugo Documentation](https://gohugo.io/getting-started/configuration-markup#highlight).
 
 <!--more-->
 
@@ -27,7 +27,7 @@ The following verifies the rendering effect of code blocks in different language
 
 ### GO
 
-```markdown
+```makrdown
 {{</* highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" */>}}
 
 func GetTitleFunc(style string) func(s string) string {
