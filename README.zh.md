@@ -16,25 +16,25 @@
 
 请使用 Github 账户授权登录，参考下面截图输入新仓库名字，点击 `Create` 按钮（注意确认否要创建私有仓库），接下来在 HUGO_VERSION 中输入 `Hugo` 的最新版本号并发布。
 
-![deploy-with-vercel-01.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-01.png)
+![deploy-with-vercel-01.png](/static/imgs/hugo-next/deploy-with-vercel-01.png)
 
 ### 🏗 调整框架
 
 首次部署由于 Vercel 的问题站点无法直接访问，参考下面截图在设置中调整框架为 `Hugo` 并保存。
 
-![deploy-with-vercel-02.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-02.png)
+![deploy-with-vercel-02.png](/static/imgs/hugo-next/deploy-with-vercel-02.png)
 
 ### 🚧 重新部署
 
 切换到 `Deployment` 标签页，参考下面截图操作，重新发布后站点就可以正常访问啦。
 
-![deploy-with-vercel-03.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-03.png)
+![deploy-with-vercel-03.png](/static/imgs/hugo-next/deploy-with-vercel-03.png)
 
 ## ⏬ 克隆主题
 
 点击右上角的 `Use this template` 绿色按钮然后填写代码仓库的相关信息，参考如下：
 
-![使用模板创建](https://imgs.lisenhui.cn/hugo-next/use-hugo-next-starter.png)
+![使用模板创建](/static/imgs/hugo-next/use-hugo-next-starter.png)
 
 最后点击 `Create repository from template` 绿色按钮，会直接在你的空间中生成站点代码，再使用`git clone`命令把它克隆到本地进行创作。
 
@@ -94,7 +94,7 @@ Press Ctrl+C to stop
 
 ## 🎨 效果预览
 
-![Hugo NexT Demo](https://imgs.lisenhui.cn/hugo-next/hugo-next-demo.png)
+![Hugo NexT Demo](/static/imgs/hugo-next/hugo-next-demo.png)
 
 ## 🎉 发布
 

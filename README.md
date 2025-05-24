@@ -15,25 +15,25 @@ Now you can deployment your site on Vercel platform by this button: [![Deploy wi
 
 Please login Vercel with your Github account, then enter your repository name and click `Create`, also need enter latest Hugo version at `HUGO_VERSION` parameter, after those action then deploy it.
 
-![deploy-with-vercel-01.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-01.png)
+![deploy-with-vercel-01.png](/static/imgs/hugo-next/deploy-with-vercel-01.png)
 
 ### 🏗 Change Framework
 
 Because Vercel doesn't defined the framework the site not work at first time, you need change it to `Hugo` and save change.
 
-![deploy-with-vercel-02.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-02.png)
+![deploy-with-vercel-02.png](/static/imgs/hugo-next/deploy-with-vercel-02.png)
 
 ### 🚧 Redeployment
 
 Switch to `Deployment` tag page, refer to the following snapshot for operation, after a while the site will visit success.
 
-![deploy-with-vercel-03.png](https://imgs.lisenhui.cn/hugo-next/deploy-with-vercel-03.png)
+![deploy-with-vercel-03.png](/static/imgs/hugo-next/deploy-with-vercel-03.png)
 
 ## ⏬ Clone Theme
 
 Click the green button which name call `Use this template` and upper right corner on the page. Full information such as below image:
 
-![Use Template](https://imgs.lisenhui.cn/hugo-next/use-hugo-next-starter.png)
+![Use Template](/static/imgs/hugo-next/use-hugo-next-starter.png)
 
 After do that click the green button which name call `Create repository from template`, then will create your site code automatic, and clone it on your PC environment.
 
@@ -93,7 +93,7 @@ Press Ctrl+C to stop
 
 ## 🎨 Snapshot
 
-![Hugo NexT Demo](https://imgs.lisenhui.cn/hugo-next/hugo-next-demo.png)
+![Hugo NexT Demo](/static/imgs/hugo-next/hugo-next-demo.png)
 
 ## 🎉 Deployment
 
