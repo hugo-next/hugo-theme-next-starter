@@ -5,7 +5,7 @@
 
 # 需要显示文章的部分，即content目录下的文件夹名称
 # Sections for show in home & archive page 
-# and it's forlder name which under content
+# and it's folder name which under content
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
@@ -396,7 +396,7 @@ rewardSets:
   # If true, the donate type title will with animation.
   animation: true
   # 捐赠信息的描述，支持 HTML 语法
-  # Comment for donate and suppport HTML syntax
+  # Comment for donate and support HTML syntax
   comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
   # 捐赠方式
   # 用例： `名称:图像地址`
@@ -466,7 +466,7 @@ codeblock:
 # Backtop settings
 backTop:
   # 开启返回顶部按钮显示
-  # If true, will display backtop button in buttom.
+  # If true, will display backtop button in bottom.
   enable: true
   # 在侧边栏显示返回顶部按钮
   # Back to top in sidebar.
@@ -494,7 +494,7 @@ readingProgress:
   # Change the color of progress bar, using Hex Code.
   color: "#37c6c0"
   # 进度条的高度
-  # Hight of the read progress bar.
+  # Height of the read progress bar.
   height: 3px
 
 # 书签功能
